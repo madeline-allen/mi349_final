@@ -41,7 +41,7 @@
     min-width: 444px;
   }
   
-  .medium_circle-512-3 {
+  .medium {
     align-self: flex-end;
     cursor: pointer;
     height: 33px;
@@ -50,7 +50,7 @@
     width: 33px;
   }
   
-  .email-1 {
+  .email {
     align-self: flex-end;
     cursor: pointer;
     height: 33px;
@@ -58,7 +58,7 @@
     width: 33px;
   }
   
-  .behance-1 {
+  .behance {
     cursor: pointer;
     height: 33px;
     margin-left: 52px;
@@ -74,7 +74,7 @@
     width: 33px;
   }
   
-  .github-1 {
+  .github {
     cursor: pointer;
     height: 33px;
     margin-left: 47px;
@@ -82,7 +82,7 @@
     width: 33px;
   }
   
-  .linkedin-icon-1-logo-1 {
+  .linkedin {
     cursor: pointer;
     height: 27px;
     margin-left: 47px;
@@ -98,7 +98,7 @@
     min-width: 939px;
   }
   
-  .logo-1 {
+  .logo {
     height: 94px;
     object-fit: cover;
     width: 102px;
