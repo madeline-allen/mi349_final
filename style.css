@@ -2,12 +2,25 @@ html {
     background: linear-gradient(180deg, rgba(109, 103, 84, 0) 0%, #D1C3A0 100%);
 background-blend-mode: multiply;
 }
-body { 
-    font-family: Optima;
-    margin: 40 px;
-    padding: 40 px;
-    color: #000000;
-    border-top: 10 px solid #242424;
-    background: #fff; 
-}
+
+/* Hi, I’m Madeline Allen */
+
+
+position: absolute;
+width: 440px;
+height: 60px;
+left: 472px;
+top: 128px;
+
+font-family: 'Optima';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 44px;
+
+color: #000000;
+
+
+
+
 
