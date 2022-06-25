@@ -1,6 +1,39 @@
-element.style {
-}
-.home-index-html .flex-col {
+/* screen - home-index-html */
+
+.home-index-html {
+    align-items: flex-end;
+    background: linear-gradient(180deg, rgba(109.44, 103.05, 83.9, 0) 0%, rgb(209.31, 195.39, 159.6) 100%);
+    background-color: rgba(255,255,255,1.0);
+    display: flex;
+    flex-direction: column;
+    height: 624px;
+    mix-blend-mode: multiply;
+    padding: 7px 8px;
+    width: 960px;
+  }
+  
+  .home-index-html .flex-row {
+    align-items: flex-start;
+    display: flex;
+    height: 521px;
+    min-width: 939px;
+  }
+  
+  .home-index-html .logo-1 {
+    height: 94px;
+    object-fit: cover;
+    width: 102px;
+  }
+  
+  .home-index-html .index-1 {
+    align-self: flex-end;
+    height: 428px;
+    margin-left: 43px;
+    object-fit: cover;
+    width: 287px;
+  }
+  
+  .home-index-html .flex-col {
     align-items: flex-start;
     display: flex;
     flex-direction: column;
@@ -8,48 +41,1052 @@ element.style {
     margin-top: 30.5px;
     min-height: 396px;
     width: 484px;
-}
-html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    font-size: 100%;
-    font: inherit;
-    vertical-align: baseline;
-}
-* {
-    box-sizing: border-box;
-}
-user agent stylesheet
-div {
-    display: block;
-}
-.container-center-horizontal > * {
-    flex-shrink: 0;
-    pointer-events: auto;
-}
-.container-center-horizontal {
+  }
+  
+  .home-index-html .flex-row-1 {
+    align-items: flex-start;
+    align-self: flex-end;
     display: flex;
-    flex-direction: row;
-    justify-content: center;
-    pointer-events: none;
-    width: 100%;
+    height: 22px;
+    min-width: 168px;
+  }
+  
+  .home-index-html .projects {
+    cursor: pointer;
+    letter-spacing: 0;
+    min-height: 22px;
+    text-shadow: 0px 2px 4px #00000040;
+    width: 64px;
+  }
+  
+  .home-index-html .blog {
+    cursor: pointer;
+    letter-spacing: 0;
+    margin-left: 40px;
+    min-height: 21px;
+    text-shadow: 0px 2px 4px #00000040;
+    width: 64px;
+  }
+  
+  .home-index-html .hi-im-madeline-allen {
+    color: var(--black);
+    font-family: var(--font-family-optima-bold);
+    font-size: var(--font-size-xl);
+    font-weight: 700;
+    letter-spacing: 0;
+    margin-left: 4px;
+    margin-top: 68px;
+    min-height: 60px;
+    width: 440px;
+  }
+  
+  .home-index-html .overlap-group {
+    height: 222px;
+    margin-top: 24px;
+    position: relative;
+    width: 359px;
+  }
+  
+  .home-index-html .i-am-an-undergraduat {
+    color: var(--black);
+    font-family: var(--font-family-optima-regular);
+    font-size: var(--font-size-l);
+    font-weight: 400;
+    left: 4px;
+    letter-spacing: 0;
+    position: absolute;
+    top: 0;
+    width: 355px;
+  }
+  
+  .home-index-html .rectangle-1 {
+    cursor: pointer;
+    height: 39px;
+    left: 0;
+    position: absolute;
+    top: 132px;
+    width: 101px;
+  }
+  
+  .home-index-html .resume {
+    color: var(--black);
+    font-family: var(--font-family-optima-regular);
+    font-size: var(--font-size-xs);
+    font-weight: 400;
+    height: 31px;
+    left: 5px;
+    letter-spacing: 0;
+    position: absolute;
+    text-align: center;
+    top: 131px;
+    width: 92px;
+  }
+  
+  .home-index-html .flex-row-2 {
+    align-items: flex-start;
+    align-self: center;
+    display: flex;
+    height: 34px;
+    margin-left: 16.0px;
+    margin-top: 54px;
+    min-width: 444px;
+  }
+  
+  .home-index-html .email-1 {
+    align-self: flex-end;
+    cursor: pointer;
+    height: 33px;
+    object-fit: cover;
+    width: 33px;
+  }
+  
+  .home-index-html .medium_circle-512-3 {
+    align-self: flex-end;
+    cursor: pointer;
+    height: 33px;
+    margin-left: 52px;
+    object-fit: cover;
+    width: 33px;
+  }
+  
+  .home-index-html .behance-1 {
+    cursor: pointer;
+    height: 33px;
+    margin-left: 52px;
+    object-fit: cover;
+    width: 33px;
+  }
+  
+  .home-index-html .dribbble-1 {
+    cursor: pointer;
+    height: 33px;
+    margin-left: 48px;
+    object-fit: cover;
+    width: 33px;
+  }
+  
+  .home-index-html .icon-linkedin {
+    cursor: pointer;
+    height: 27px;
+    margin-left: 47px;
+    margin-top: 1.0px;
+    object-fit: cover;
+    width: 33px;
+  }
+  
+  .home-index-html .github-1 {
+    cursor: pointer;
+    height: 33px;
+    margin-left: 47px;
+    object-fit: cover;
+    width: 33px;
+  }
+  /* screen - blog-blog-html */
+
+.blog-blog-html {
+    align-items: flex-start;
+    background: linear-gradient(180deg, rgba(109, 103, 84, 0) 0%, rgb(209, 195, 160) 100%);
+    background-color: rgba(255,255,255,1.0);
+    display: flex;
+    height: 631px;
+    overflow: hidden;
+    padding: 7px 0;
+    width: 960px;
+  }
+  
+  .blog-blog-html .logo-1 {
+    cursor: pointer;
+    height: 94px;
+    margin-left: 13px;
+    object-fit: cover;
+    width: 102px;
+  }
+  
+  .blog-blog-html .flex-col {
+    align-items: flex-end;
+    display: flex;
+    flex-direction: column;
+    margin-left: 151px;
+    margin-top: 133px;
+    min-height: 476px;
+    width: 482px;
+  }
+  
+  .blog-blog-html .name {
+    cursor: pointer;
+    height: 53px;
+    letter-spacing: 0;
+    margin-right: 6px;
+    text-align: center;
+    text-shadow: 0px 4px 4px #00000040;
+    width: 256px;
+  }
+  
+  .blog-blog-html .january-yes-its-pos {
+    cursor: pointer;
+    height: 57px;
+    letter-spacing: 0;
+    margin-right: 6px;
+    margin-top: 50px;
+    text-align: center;
+    text-shadow: 0px 4px 4px #00000040;
+    width: 256px;
+  }
+  
+  .blog-blog-html .december-the-power-of-love-languages {
+    cursor: pointer;
+    height: 63px;
+    letter-spacing: 0;
+    margin-right: 6px;
+    margin-top: 22px;
+    text-align: center;
+    text-shadow: 0px 4px 4px #00000040;
+    width: 256px;
+  }
+  
+  .blog-blog-html .frame-1 {
+    align-items: flex-start;
+    background-color: #000000a6;
+    box-shadow: 1px 2px 4px #00000040;
+    cursor: pointer;
+    display: flex;
+    height: 40px;
+    margin-top: 39px;
+    overflow: hidden;
+    padding: 3px 0;
+    width: 262px;
+  }
+  
+  .blog-blog-html .overlap-group {
+    height: 31px;
+    margin-left: -3px;
+    position: relative;
+    width: 251px;
+  }
+  
+  .blog-blog-html .view-all-articles-on-her-campus {
+    height: 31px;
+    left: 0;
+    letter-spacing: 0;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    width: 230px;
+  }
+  
+  .blog-blog-html .arrow-3 {
+    height: 7px;
+    left: 224px;
+    position: absolute;
+    top: 13px;
+    width: 28px;
+  }
+  
+  .blog-blog-html .flex-row {
+    align-items: flex-start;
+    align-self: flex-start;
+    display: flex;
+    height: 34px;
+    margin-top: 118px;
+    min-width: 444px;
+  }
+  
+  .blog-blog-html .email-1 {
+    align-self: flex-end;
+    cursor: pointer;
+    height: 33px;
+    object-fit: cover;
+    width: 33px;
+  }
+  
+  .blog-blog-html .medium_circle-512-2 {
+    align-self: flex-end;
+    cursor: pointer;
+    height: 33px;
+    margin-left: 52px;
+    object-fit: cover;
+    width: 33px;
+  }
+  
+  .blog-blog-html .behance-1 {
+    cursor: pointer;
+    height: 33px;
+    margin-left: 52px;
+    object-fit: cover;
+    width: 33px;
+  }
+  
+  .blog-blog-html .dribbble-1 {
+    cursor: pointer;
+    height: 33px;
+    margin-left: 48px;
+    object-fit: cover;
+    width: 33px;
+  }
+  
+  .blog-blog-html .icon-linkedin {
+    align-self: center;
+    cursor: pointer;
+    height: 27px;
+    margin-left: 47px;
+    margin-top: 1.12px;
+    object-fit: cover;
+    width: 33px;
+  }
+  
+  .blog-blog-html .github-1 {
+    cursor: pointer;
+    height: 33px;
+    margin-left: 47px;
+    object-fit: cover;
+    width: 33px;
+  }
+  
+  .blog-blog-html .projects {
+    cursor: pointer;
+    letter-spacing: 0;
+    margin-left: 36px;
+    margin-top: 31px;
+    min-height: 22px;
+    text-shadow: 0px 2px 4px #00000040;
+    width: 64px;
+  }
+  
+  .blog-blog-html .blog {
+    color: var(--black);
+    font-family: var(--font-family-optima-bold);
+    font-size: var(--font-size-m);
+    font-weight: 700;
+    letter-spacing: 0;
+    margin-left: 40px;
+    margin-top: 31px;
+    min-height: 21px;
+    text-shadow: 0px 2px 4px #00000040;
+    width: 64px;
+  }
+  
+  .blog-blog-html .header-1 {
+    height: 478px;
+    margin-left: 10px;
+    margin-top: 98px;
+    width: 960px;
+  }
+  /* screen - projects-projects-html */
+
+.projects-projects-html {
+    align-items: flex-end;
+    background: linear-gradient(180deg, rgba(109, 103, 84, 0) 0%, rgb(209, 195, 160) 100%);
+    background-color: rgba(255,255,255,1.0);
+    display: flex;
+    flex-direction: column;
+    height: 624px;
+    padding: 7px 8px;
+    width: 960px;
+  }
+  
+  .projects-projects-html .flex-row {
+    align-items: flex-start;
+    display: flex;
+    height: 469px;
+    min-width: 939px;
+  }
+  
+  .projects-projects-html .flex-row-1 {
+    align-items: flex-end;
+    display: flex;
+    height: 463px;
+    min-width: 425px;
+  }
+  
+  .projects-projects-html .flex-col {
+    align-items: flex-end;
+    display: flex;
+    flex-direction: column;
+    min-height: 463px;
+    width: 207px;
+  }
+  
+  .projects-projects-html .logo-1 {
+    align-self: flex-start;
+    cursor: pointer;
+    height: 94px;
+    object-fit: cover;
+    width: 102px;
+  }
+  
+  .projects-projects-html .overlap-group1 {
+    height: 134px;
+    margin-top: 71px;
+    position: relative;
+    width: 176px;
+  }
+  
+  .projects-projects-html .rectangle {
+    background-color: var(--black-3);
+    box-shadow: 1px 2px 4px #00000040;
+    cursor: pointer;
+    height: 134px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 176px;
+  }
+  
+  .projects-projects-html .spotlight-museum-ap {
+    height: 134px;
+    left: 0;
+    letter-spacing: 0;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    width: 176px;
+  }
+  
+  .projects-projects-html .overlap-group {
+    align-items: flex-start;
+    background-color: var(--black-3);
+    box-shadow: 1px 2px 4px #00000040;
+    display: flex;
+    margin-top: 30px;
+    min-width: 176px;
+  }
+  
+  .projects-projects-html .improving-digital-li {
+    cursor: pointer;
+    height: 134px;
+    letter-spacing: 0;
+    margin-left: -1px;
+    margin-top: -1px;
+    text-align: center;
+    width: 176px;
+  }
+  
+  .projects-projects-html .overlap-group-container {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    margin-left: 42px;
+    min-height: 298px;
+    width: 176px;
+  }
+  
+  .projects-projects-html .overlap-group2 {
+    height: 137px;
+    position: relative;
+    width: 176px;
+  }
+  
+  .projects-projects-html .rectangle-4 {
+    background-color: #000000c2;
+    box-shadow: 1px 2px 4px #00000040;
+    cursor: pointer;
+    height: 134px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 176px;
+  }
+  
+  .projects-projects-html .spotlight-museum-app-preproduction {
+    height: 134px;
+    left: 0;
+    letter-spacing: 0;
+    position: absolute;
+    text-align: center;
+    top: 3px;
+    width: 176px;
+  }
+  
+  .projects-projects-html .overlap-group3 {
+    height: 134px;
+    margin-top: 27px;
+    position: relative;
+    width: 176px;
+  }
+  
+  .projects-projects-html .surname {
+    height: 134px;
+    left: 0;
+    letter-spacing: 0;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    width: 176px;
+  }
+  
+  .projects-projects-html .flex-col-1 {
+    align-items: flex-start;
+    align-self: flex-end;
+    display: flex;
+    flex-direction: column;
+    margin-left: 39px;
+    min-height: 438px;
+    width: 475px;
+  }
+  
+  .projects-projects-html .flex-row-2 {
+    align-items: flex-start;
+    align-self: flex-end;
+    display: flex;
+    height: 22px;
+    min-width: 168px;
+  }
+  
+  .projects-projects-html .projects {
+    color: var(--black);
+    font-family: var(--font-family-optima-bold);
+    font-size: var(--font-size-m);
+    font-weight: 700;
+    letter-spacing: 0;
+    min-height: 22px;
+    text-shadow: 0px 2px 4px #00000040;
+    width: 64px;
+  }
+  
+  .projects-projects-html .blog {
+    cursor: pointer;
+    letter-spacing: 0;
+    margin-left: 40px;
+    min-height: 21px;
+    text-shadow: 0px 2px 4px #00000040;
+    width: 64px;
+  }
+  
+  .projects-projects-html .design-1 {
+    height: 306px;
+    margin-top: 110px;
+    object-fit: cover;
+    width: 445px;
+  }
+  
+  .projects-projects-html .flex-row-3 {
+    align-items: flex-start;
+    align-self: center;
+    display: flex;
+    height: 34px;
+    margin-left: 16.0px;
+    margin-top: 106px;
+    min-width: 444px;
+  }
+  
+  .projects-projects-html .email-1 {
+    align-self: flex-end;
+    cursor: pointer;
+    height: 33px;
+    object-fit: cover;
+    width: 33px;
+  }
+  
+  .projects-projects-html .link {
+    cursor: pointer;
+    height: 33px;
+    margin-left: 52px;
+    margin-top: 0;
+    object-fit: cover;
+    width: 33px;
+  }
+  
+  .projects-projects-html .dribbble-1 {
+    cursor: pointer;
+    height: 33px;
+    margin-left: 48px;
+    margin-top: 0;
+    object-fit: cover;
+    width: 33px;
+  }
+  
+  .projects-projects-html .icon-linkedin {
+    cursor: pointer;
+    height: 27px;
+    margin-left: 47px;
+    object-fit: cover;
+    width: 33px;
+  }
+  
+  .projects-projects-html .github-1 {
+    cursor: pointer;
+    height: 33px;
+    margin-left: 47px;
+    margin-top: 0;
+    object-fit: cover;
+    width: 33px;
+  }
+  /* screen - improvingdigitallit */
+
+.improvingdigitallit {
+    align-items: flex-start;
+    background-color: var(--black-2);
+    display: flex;
+    height: 624px;
+    width: 960px;
+  }
+  
+  #overlay-improvingdigitallit {
+    background-color: var(--black-2);
+  }
+  
+  .overlay .improvingdigitallit {
+    background-color: #00000000;
+  }
+  
+  .improvingdigitallit .improving-digital-lit {
+    align-items: flex-start;
+    background-color: var(--white);
+    display: flex;
+    left: calc(50vw - 240.0px);
+    padding: 0 12px;
+    position: relative;
+    top: calc(50vh - 288.0px);
+    width: 480px;
+  }
+  
+  .improvingdigitallit .madeline-allen-mi-30 {
+    height: 576px;
+    object-fit: cover;
+    width: 455px;
+  }
+  /* screen - blog-blog-html */
+
+.blog-blog-html {
+    align-items: flex-start;
+    background: linear-gradient(180deg, rgba(109, 103, 84, 0) 0%, rgb(209, 195, 160) 100%);
+    background-color: rgba(255,255,255,1.0);
+    display: flex;
+    height: 631px;
+    overflow: hidden;
+    padding: 7px 0;
+    width: 960px;
+  }
+  
+  .blog-blog-html .logo-1 {
+    cursor: pointer;
+    height: 94px;
+    margin-left: 13px;
+    object-fit: cover;
+    width: 102px;
+  }
+  
+  .blog-blog-html .flex-col {
+    align-items: flex-end;
+    display: flex;
+    flex-direction: column;
+    margin-left: 151px;
+    margin-top: 133px;
+    min-height: 476px;
+    width: 482px;
+  }
+  
+  .blog-blog-html .name {
+    cursor: pointer;
+    height: 53px;
+    letter-spacing: 0;
+    margin-right: 6px;
+    text-align: center;
+    text-shadow: 0px 4px 4px #00000040;
+    width: 256px;
+  }
+  
+  .blog-blog-html .january-yes-its-pos {
+    cursor: pointer;
+    height: 57px;
+    letter-spacing: 0;
+    margin-right: 6px;
+    margin-top: 50px;
+    text-align: center;
+    text-shadow: 0px 4px 4px #00000040;
+    width: 256px;
+  }
+  
+  .blog-blog-html .december-the-power-of-love-languages {
+    cursor: pointer;
+    height: 63px;
+    letter-spacing: 0;
+    margin-right: 6px;
+    margin-top: 22px;
+    text-align: center;
+    text-shadow: 0px 4px 4px #00000040;
+    width: 256px;
+  }
+  
+  .blog-blog-html .frame-1 {
+    align-items: flex-start;
+    background-color: #000000a6;
+    box-shadow: 1px 2px 4px #00000040;
+    cursor: pointer;
+    display: flex;
+    height: 40px;
+    margin-top: 39px;
+    overflow: hidden;
+    padding: 3px 0;
+    width: 262px;
+  }
+  
+  .blog-blog-html .overlap-group {
+    height: 31px;
+    margin-left: -3px;
+    position: relative;
+    width: 251px;
+  }
+  
+  .blog-blog-html .view-all-articles-on-her-campus {
+    height: 31px;
+    left: 0;
+    letter-spacing: 0;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    width: 230px;
+  }
+  
+  .blog-blog-html .arrow-3 {
+    height: 7px;
+    left: 224px;
+    position: absolute;
+    top: 13px;
+    width: 28px;
+  }
+  
+  .blog-blog-html .flex-row {
+    align-items: flex-start;
+    align-self: flex-start;
+    display: flex;
+    height: 34px;
+    margin-top: 118px;
+    min-width: 444px;
+  }
+  
+  .blog-blog-html .email-1 {
+    align-self: flex-end;
+    cursor: pointer;
+    height: 33px;
+    object-fit: cover;
+    width: 33px;
+  }
+  
+  .blog-blog-html .medium_circle-512-2 {
+    align-self: flex-end;
+    cursor: pointer;
+    height: 33px;
+    margin-left: 52px;
+    object-fit: cover;
+    width: 33px;
+  }
+  
+  .blog-blog-html .behance-1 {
+    cursor: pointer;
+    height: 33px;
+    margin-left: 52px;
+    object-fit: cover;
+    width: 33px;
+  }
+  
+  .blog-blog-html .dribbble-1 {
+    cursor: pointer;
+    height: 33px;
+    margin-left: 48px;
+    object-fit: cover;
+    width: 33px;
+  }
+  
+  .blog-blog-html .icon-linkedin {
+    align-self: center;
+    cursor: pointer;
+    height: 27px;
+    margin-left: 47px;
+    margin-top: 1.12px;
+    object-fit: cover;
+    width: 33px;
+  }
+  
+  .blog-blog-html .github-1 {
+    cursor: pointer;
+    height: 33px;
+    margin-left: 47px;
+    object-fit: cover;
+    width: 33px;
+  }
+  
+  .blog-blog-html .projects {
+    cursor: pointer;
+    letter-spacing: 0;
+    margin-left: 36px;
+    margin-top: 31px;
+    min-height: 22px;
+    text-shadow: 0px 2px 4px #00000040;
+    width: 64px;
+  }
+  
+  .blog-blog-html .blog {
+    color: var(--black);
+    font-family: var(--font-family-optima-bold);
+    font-size: var(--font-size-m);
+    font-weight: 700;
+    letter-spacing: 0;
+    margin-left: 40px;
+    margin-top: 31px;
+    min-height: 21px;
+    text-shadow: 0px 2px 4px #00000040;
+    width: 64px;
+  }
+  
+  .blog-blog-html .header-1 {
+    height: 478px;
+    margin-left: 10px;
+    margin-top: 98px;
+    width: 960px;
+  }
+  /* screen - coming-soon */
+
+.coming-soon {
+    align-items: flex-start;
+    background-color: var(--black-2);
+    display: flex;
+    height: 624px;
+    width: 960px;
+  }
+  
+  #overlay-coming-soon {
+    background-color: var(--black-2);
+  }
+  
+  .overlay .coming-soon {
+    background-color: #00000000;
+  }
+  
+  .coming-soon .coming-soon-1 {
+    align-items: flex-start;
+    background-color: #f1f1f1;
+    display: flex;
+    left: calc(50vw - 99.0px);
+    position: relative;
+    top: calc(50vh - 35.0px);
+    width: 198px;
+  }
+  
+  .coming-soon .coming-soon-2 {
+    color: var(--black);
+    font-family: var(--font-family-optima-regular);
+    font-size: var(--font-size-s);
+    font-weight: 400;
+    height: 70px;
+    letter-spacing: 0;
+    margin-top: -1px;
+    text-align: center;
+    width: 198px;
+  }
+  /* screen - email */
+
+.email {
+    align-items: flex-start;
+    background-color: var(--black-2);
+    display: flex;
+    height: 631px;
+    width: 960px;
+  }
+  
+  #overlay-email {
+    background-color: var(--black-2);
+  }
+  
+  .overlay .email {
+    background-color: #00000000;
+  }
+  
+  .email .email-1 {
+    align-items: flex-start;
+    background-color: #f1f1f1;
+    display: flex;
+    left: calc(50vw - 99.0px);
+    position: relative;
+    top: calc(50vh - 35.0px);
+    width: 198px;
+  }
+  
+  .email .inquiries-madelinej02icloudcom {
+    color: var(--black);
+    font-family: var(--font-family-optima-regular);
+    font-size: var(--font-size-s);
+    font-weight: 400;
+    height: 70px;
+    letter-spacing: 0;
+    margin-top: -1px;
+    text-align: center;
+    width: 198px;
+  }
+  @import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+/* The following line is used to measure usage of this code in production. For more info see our usage billing page */
+@import url("https://px.animaapp.com/62b7492cb76e3b02a35406cc.62b7492ccf20b893e0da0191.FBc4ROi.hcp.png");
+
+@font-face {
+  font-family: "Optima-Regular";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/unicode.optima.ttf") format("truetype");
 }
-body {
-    line-height: 1;
+@font-face {
+  font-family: "Optima-Bold";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/OPTIMA_B.TTF");
 }
-:root {
+
+
+.screen a {
+  display: contents;
+  text-decoration: none;
+}
+
+.container-center-horizontal {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  pointer-events: none;
+  width: 100%;
+}
+
+.container-center-horizontal > * {
+  flex-shrink: 0;
+  pointer-events: auto;
+}
+
+.overlay {
+  display: none;
+  height: 100%;
+  opacity: 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.overlay.animate-appear {
+  animation: reveal 0.3s ease-in-out 1 normal forwards;
+  display: block;
+  opacity: 0;
+}
+
+.overlay.animate-disappear {
+  animation: reveal 0.3s ease-in-out 1 reverse forwards;
+  display: block;
+  opacity: 1;
+  pointer-events: none;
+}
+
+.overlay.animate-disappear * {
+  pointer-events: none;
+}
+
+.align-self-flex-start {
+  align-self: flex-start;
+}
+
+.align-self-flex-end {
+  align-self: flex-end;
+}
+
+.align-self-flex-center {
+  align-self: flex-center;
+}
+
+.valign-text-middle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+/* screen - resume */
+
+.resume {
+    align-items: flex-start;
+    background-color: var(--black-2);
+    display: flex;
+    height: 624px;
+    width: 960px;
+  }
+  
+  #overlay-resume {
+    background-color: var(--black-2);
+  }
+  
+  .overlay .resume {
+    background-color: #00000000;
+  }
+  
+  .resume .resume-1 {
+    align-items: flex-end;
+    background-color: var(--white);
+    display: flex;
+    left: calc(50vw - 237.0px);
+    overflow: hidden;
+    padding: 0 22px;
+    position: relative;
+    top: calc(50vh - 285.0px);
+    width: 474px;
+  }
+  
+  .resume .resume-1-1 {
+    height: 570px;
+    margin-bottom: -7.5px;
+    object-fit: cover;
+    width: 430px;
+  }
+  :root { 
     --black: #000000;
     --black-2: #00000040;
     --black-3: #000000bf;
     --white: #ffffff;
+   
     --font-size-l: 16px;
     --font-size-m: 15px;
     --font-size-s: 13px;
     --font-size-xl: 36px;
     --font-size-xs: 12px;
+   
     --font-family-optima-bold: "Optima-Bold", Helvetica;
     --font-family-optima-regular: "Optima-Regular", Helvetica;
-}
-
-
+  }
+  .optima-regular-normal-white-13px {
+    color: var(--white);
+    font-family: var(--font-family-optima-regular);
+    font-size: var(--font-size-s);
+    font-style: normal;
+    font-weight: 400;
+  }
+  
+  .optima-bold-white-15px {
+    color: var(--white);
+    font-family: var(--font-family-optima-bold);
+    font-size: var(--font-size-m);
+    font-style: normal;
+    font-weight: 700;
+  }
+  
+  .optima-regular-normal-black-15px {
+    color: var(--black);
+    font-family: var(--font-family-optima-regular);
+    font-size: var(--font-size-m);
+    font-style: normal;
+    font-weight: 400;
+  }
+  
+  .optima-regular-normal-white-15px {
+    color: var(--white);
+    font-family: var(--font-family-optima-regular);
+    font-size: var(--font-size-m);
+    font-style: normal;
+    font-weight: 400;
+  }
+  
+  .optima-regular-normal-white-12px {
+    color: var(--white);
+    font-family: var(--font-family-optima-regular);
+    font-size: var(--font-size-xs);
+    font-style: normal;
+    font-weight: 400;
+  }
+  
+  .border-1px-black {
+    border: 1px solid var(--black);
+  }
