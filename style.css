@@ -20,7 +20,11 @@ line-height: 44px;
 
 color: #000000;
 
-
+.socials li {
+    width: 30px;
+    display: inline-block;
+    padding: 20px 10px;
+}
 
 
 
